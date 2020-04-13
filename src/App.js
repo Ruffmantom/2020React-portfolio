@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
+
 
 
 
@@ -13,12 +13,12 @@ function App() {
   return (
     <Router>
       <div>
-        <Header></Header>
-        <Wrapper>
+        <Header/>
+       
           <Route exact path="/" component={Home} />
           <Route exact path="/Projects" component={Projects} />
           <Route exact path="/Contact" component={Contact} />
-        </Wrapper>
+       
         <Footer />
       </div>
     </Router>

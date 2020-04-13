@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import "./style.css";
 import burger from "../../assets/images/burger-w-min.png";
 import close from "../../assets/images/x-w-min.png";
 import logo from "../../assets/images/main-w-logo-min.png";
+// import "./style.css";
+
 
 function Header() {
     return (
@@ -16,10 +17,10 @@ function Header() {
                 <div className="navbar-nav">
                     <Link to="/" className="tabs" {...window.location.pathname === "/" || window.location.pathname === "Home" ? "nav-link active": "nav-link"}>Home<span className="sr-only">(...current)</span></Link>
                     <Link to="/Projects" className="tabs nav-item link-two"{...window.location.pathname === "/Projects"? "nav-link active": "nav-link"} >Projects</Link>
-                    <Link to="/Contact" className="tabs nav-item link-three" {...window.location.pathname === "/Contact"? "nav-link active": "nav-link"}>Contact</Link>
+                    <Link to="/Contact" className="tabs nav-item link-two" {...window.location.pathname === "/Contact"? "nav-link active": "nav-link"}>Contact</Link>
                 </div>
             </div>
-            <Link className="navbar-brand" to="/"><image className="nav-logo" src={logo} alt="Website Logo"></image></Link>
+            <Link className="navbar-brand" to="/"><img className="nav-logo" src={logo} alt="Website Logo"></img></Link>
         </div>
 
 
