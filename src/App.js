@@ -3,11 +3,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Header from "./pages/Header";
-import Footer from "./pages/Footer";
-import Wrapper from "./pages/Wrapper";
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
+
 
 
 function App() {
