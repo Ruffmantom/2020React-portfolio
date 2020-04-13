@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import burger from "../../assets/images/burger-w-min.png";
 import close from "../../assets/images/x-w-min.png";
 import logo from "../../assets/images/main-w-logo-min.png";
-// import "./style.css";
 
 
 function Header() {

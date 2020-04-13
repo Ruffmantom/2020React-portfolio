@@ -175,22 +175,21 @@ p{
     margin-bottom: 20px;
 }
 /* footer */
-footer{
+.footer{
     height: 120px;
     background-color: rgba(100, 100, 100);
     display: flex;
     width: 100%;
 }
-.foot-icons{ /* div */
-    height: 100%;
-    display: flex;
-    padding: auto 7rem;
-    justify-content: center;
+.foot-icons{ 
+  margin: auto;
+
+  
 }
 .icons{
-    height: 40%;
+    height: 60px;
     width: auto;
-    margin: auto 20px;
+    margin: auto 30px;
 }
 .row{
     margin: 0;
