@@ -13,7 +13,7 @@ function Home() {
                     <h2 className="title">Ruff web Development</h2>
                     <p className="snippet">Welcome to Tom Ruff Web Design. Please have a look around and check out my resume
                         below.</p>
-                    <a href="" target="_blank" className="btn btn-primary resume">Resume</a>
+                    <a href="#" target="_blank" className="btn btn-primary resume">Resume</a>
                 </div>
 
                 <dvi className="col-md-6 hide-small">
@@ -47,7 +47,7 @@ function Home() {
                         <h3 className="card-title">Connect</h3>
                         <p className="card-snippet">If you are interested in my work click the "Connect" button to send me
                             an email</p>
-                        <a href="mailto:tomruffcodes@gmail.com" class="connect-btn btn btn-primary">Connect</a>
+                        <a href="/Contact" class="connect-btn btn btn-primary">Connect</a>
                     </div>
                     <div className="card">
                         <img className="card-img" src={iconPencil} alt="Planning"></img>

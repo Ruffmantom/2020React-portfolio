@@ -125,7 +125,7 @@ button{
     }
 
 }
-/* section */
+/* About me / what I do section */
 p{
     line-height: 30px;  
 }
@@ -158,6 +158,11 @@ p{
     border: none;
     height: 70%;
 }
+.card-img{
+    height: 220px;
+    width: 220px;
+    margin: 0 auto;
+}
 @media only screen and (max-width: 1291px){
     .card{
         padding: 15px 19px !important;
@@ -170,6 +175,7 @@ p{
     /* margin-top: 20px; */
     width: 90%;
     margin: 0 auto;
+    
 }
 .card-snippet{
     margin-bottom: 20px;
