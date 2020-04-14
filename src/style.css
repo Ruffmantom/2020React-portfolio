@@ -201,70 +201,19 @@ p{
     margin: 0;
 }
 /* ------------------- PROJECTS PAGE ----------------------------- */
-.project-summary{
-    color: white;
-    text-align: center;
-    margin: auto;
-    padding:  0 7rem;
-    line-height: 40px;
+/* ... */
+.mainDiv{
+    display: flex;
+    justify-content:space-around;
 }
-.projects{
-    margin: 7rem auto;
-}
-.projects-logo{
-    height: 75px;
-    width: auto;
-}
-.pro-image{
-    background-repeat: no-repeat;
-    height: 270px;
-    width: 200px;
-    margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.img-1{
-    background-image: url('./assets/images/dd-min.png');
-}
-.img-2{
-    background-image: url('./assets/images/weather-app-min.png');
-}
-.img-3{
-    background-image: url('./assets/images/code-quiz-min.jpg');
-}
-.img-4{
-    background-image: url('./assets/images/eat-the-burger-min.png');
-}
-.img-5{
-    background-image: url('./assets/images/dadLife-min.png');
+.rightCard{
+  width: 500px;  
+  background-color: rgb(170, 170, 170);
+  
 }
 
-.overlay{
-    /* position: absolute; */
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(100, 100, 100, 0.795);
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.overlay-text{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-}
-.overlay:hover{
-    cursor: pointer;
-    opacity: 1;  
-    
+.leftLogo{
+    width: 200px;
 }
 
 
@@ -292,23 +241,7 @@ p{
         height: 400px;
     }
     /* project page */
-    .overlay{
-        display: none;
-    }
-    .space{
-        margin-top: 2rem;
-    }
-    .projects-logo{
-        height: 45px;
-        margin-bottom: 15px;
-    }
-    .project-summary{
-        padding:  0 1rem;   
-    }
-    .projects-title{
-        /* margin-bottom: 15px; */
-        font-size: 28px;
-    }
+   /* ... */
 }
 @media only screen and (max-width: 400px){
     .card{
