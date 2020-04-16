@@ -202,14 +202,34 @@ p{
 }
 /* ------------------- PROJECTS PAGE ----------------------------- */
 /* ... */
+
 .mainDiv{
+    position: relative;
+    overflow: visible;
     display: flex;
-    justify-content:space-around;
+    padding:100px 50px 0 50px;
+    
 }
 .rightCard{
   width: 500px;  
   background-color: rgb(170, 170, 170);
-  
+  padding: 50px 100px 50px 50px;
+  margin-bottom: 100px;
+}
+.card-title{
+    font-size: 30px;
+}
+.card-snippet{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.leftScroll{
+    margin-right: 200px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 190px;
+    height: 200px;
 }
 
 .leftLogo{
