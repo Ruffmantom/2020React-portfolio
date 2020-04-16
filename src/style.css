@@ -202,7 +202,14 @@ p{
 }
 /* ------------------- PROJECTS PAGE ----------------------------- */
 /* ... */
-
+.projectLanding{
+    height: 100vh;
+    background-color: rgb(255, 189, 177);
+    overflow: hidden;
+}
+.videoBkg{
+    width: 100vw;
+}
 .mainDiv{
     position: relative;
     overflow: visible;
