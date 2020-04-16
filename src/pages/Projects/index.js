@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../../components/Card";
 import ProList from "../../assets/ProList.json";
 import logo from "../../assets/images/main-logo-min.png";
-import video from "./codingBkg.mp4";
+const youVid = "https://drive.google.com/uc?id=11aguMjjhsXxX3ojpr67z6nyi0e1InQ9Y";
 
 console.log(ProList);
 {
@@ -18,7 +18,7 @@ function Projects() {
         <div>
             <div className="projectLanding">
                 <video autoPlay muted loop className="videoBkg">
-                    <source src={video} type="video/mp4"></source>
+                    <source src={youVid} type="video/mp4"></source>
                 </video>
                 
             </div>
