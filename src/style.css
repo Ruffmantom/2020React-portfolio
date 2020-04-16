@@ -74,8 +74,9 @@ a:hover{
 .landing{
     background-image: url("./assets/images/backdrop.jpg");
     background-size: cover;
-    height: 500px;
+    height: 100vh;
     padding:200px 7rem;
+    scroll-snap-type: x proximity;
 }
 .welcome{
     padding: 20px ;
@@ -129,15 +130,23 @@ button{
 p{
     line-height: 30px;  
 }
+.about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: x proximity;
+}
 .about-me{
-    width: 100%;
-    padding: 5rem 9rem;
+    margin: auto;
+    width: 75%
 }
 .w-i-d {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5rem;
+    margin-bottom:90px ;
+    height: 100vh;
+    scroll-snap-type: x proximity;
 }
 .card-container{
     display: flex;
@@ -146,7 +155,7 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 700px;
+    height: 800px;
 }
 
 .card{
@@ -206,25 +215,67 @@ p{
     height: 100vh;
     background-color: rgba(100, 100, 100);
     overflow: hidden;
+    padding: 0;
 }
 .videoBkg{
     width: 100vw;
+    
 }
+.overlay{
+    display: none;
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 128, 128, 0.308);
+}
+.projectLogo{
+    height: 100px;
+}
+@media only screen and (max-width: 1050px){
+    .videoBkg{
+        
+        height: initial;
+
+    }
+    .projectLanding{
+        height: inherit;
+        background-color: rgba(100, 100, 100);
+        overflow: hidden;
+        padding: 0;
+    }
+}
+/* make media for 800 or less */
+/* ________ Main projects div ___________ */
 .mainDiv{
     position: relative;
     overflow: visible;
     display: flex;
-    padding:100px 50px 0 50px;
-    
+    padding: 100px 50px 0 50px;
+    justify-content: center;
+}
+.right{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
 }
 .rightCard{
-  width: 500px;  
-  background-color: rgb(170, 170, 170);
-  padding: 50px 100px 50px 50px;
+  margin: auto;
+  width: 100%;  
+  background-color: rgba(100, 100, 100);
+  padding: 50px 50px 50px 50px;
   margin-bottom: 100px;
+  color: white;
+  border-radius: 10px;
+}
+.dep-btn{
+    margin: 20px 0;
+    width: 100%;
+}
+.git-btn{
+    width: 100%;  
 }
 .card-title{
     font-size: 30px;
+    margin: 20px 0;
 }
 .card-snippet{
     font-size: 15px;
@@ -237,6 +288,7 @@ p{
     position: sticky;
     top: 190px;
     height: 200px;
+    width: 500px;
 }
 
 .leftLogo{

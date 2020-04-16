@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../components/Card";
 import ProList from "../../assets/ProList.json";
-import logo from "../../assets/images/main-logo-min.png";
+import logo from "../../assets/images/main-w-logo-min.png";
 const youVid = "https://drive.google.com/uc?id=11aguMjjhsXxX3ojpr67z6nyi0e1InQ9Y";
 
 console.log(ProList);
@@ -20,7 +20,9 @@ function Projects() {
                 <video autoPlay muted loop className="videoBkg">
                     <source src={youVid} type="video/mp4"></source>
                 </video>
-                
+                <div className="overlay">
+                    <image className="projectLogo" src={logo}></image>
+                </div>
             </div>
 
                 {/* projects slide effect */}
@@ -28,9 +30,8 @@ function Projects() {
 
                     {/* this will be for the left side */}
                     <div className="leftScroll">
-                        <img className="leftLogo" src={logo} alt="Website logo"></img>
                         <h1>Projects</h1>
-                        <p>Below you will see my personal projects and projects I have collaborated on.</p>
+                        <p>Here you will see my personal projects and projects I have collaborated on. The layout and design for this page will continue to evolve with the continuation of projects.</p>
                     </div>
                     {/* this div will be for the right side */}
                     <div className="right">

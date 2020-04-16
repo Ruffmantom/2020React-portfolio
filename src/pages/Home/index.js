@@ -24,7 +24,7 @@ function Home() {
             </div>
 
             <section className="about row">
-                <div className="about-me col-md-12">
+                <div className="about-me">
                     <h2 className="title">About Me</h2>
                     <p className="snippet">My name is Tom Ruff. I am a Front-End Web Developer and am currently in school
                         for Full-Stack web development at the University of Utah in Salt lake City. I am from Chicago
