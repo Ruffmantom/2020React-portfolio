@@ -6,13 +6,6 @@ const youVid = "https://drive.google.com/uc?id=11aguMjjhsXxX3ojpr67z6nyi0e1InQ9Y
 
 console.log(ProList);
 
-    ProList.map(res => {
-        console.log(res.image);
-    })
-
-
-
-
 function Projects() {
     return (
         <div>

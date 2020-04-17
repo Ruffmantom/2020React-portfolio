@@ -13,6 +13,7 @@ function Home() {
                     <h2 className="title">Ruff web Development</h2>
                     <p className="snippet">Welcome to Tom Ruff Web Design. Please have a look around and check out my resume
                         below.</p>
+                        {/* need to add the link to the resume */}
                     <a href="#" target="_blank" className="btn btn-primary resume">Resume</a>
                 </div>
 
