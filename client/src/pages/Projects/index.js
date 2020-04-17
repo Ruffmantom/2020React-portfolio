@@ -5,11 +5,11 @@ import logo from "../../assets/images/main-w-logo-min.png";
 const youVid = "https://drive.google.com/uc?id=11aguMjjhsXxX3ojpr67z6nyi0e1InQ9Y";
 
 console.log(ProList);
-{
+
     ProList.map(res => {
         console.log(res.image);
     })
-}
+
 
 
 
@@ -53,8 +53,4 @@ function Projects() {
     )
 }
 
-var leftDiv = document.getElementsByClassName("left");
-document.addEventListener("scroll", function(){
-
-            })
 export default Projects;

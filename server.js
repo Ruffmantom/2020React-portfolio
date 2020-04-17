@@ -2,22 +2,35 @@
 var express = require("express");
 const path = require("path");
 var app = express();
+const nodemailer = require('nodemailer');
 var PORT = process.env.PORT || 3001;
+
+// for sending email
+// ------------------------
+// data parsing
+app.use(express.urlencoded({
+    extended: false
+}));
+app.use(express.json());
+
+app.post('/email',(req,res) =>{
+    // todo
+    // send email here
+    console.log('data:' , req.body)
+    res.json({message: 'message received!!'})
+});
+
 
 
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
-  }
+}
 
-// Creating express app and configuring middleware needed 
-
-app.use(express.urlencoded({ extended: true }));
-
-app.get("*", function(req, res) {
+app.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
-  });
+});
 
 
 // app listening to server

@@ -35,3 +35,22 @@ $(document).ready(function () {
   // the end of document.ready
 });
 
+$('#form').on('submit', (e) => {
+  e.preventDefault();
+
+  const email = $('#email').val().trim();
+  const personsName = $('#name').val().trim();
+  const message = $('#text').val().trim();
+
+  const data = {
+    email,
+    personsName,
+    message
+  }
+
+  $.post('/email',data, function(){
+    console.log("Server recieved our data!")
+  })
+
+})
+
