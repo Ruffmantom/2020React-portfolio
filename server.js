@@ -2,10 +2,11 @@
 var express = require("express");
 const path = require("path");
 var app = express();
+require('dotenv').config()
 const sendMail = require("./mail.js");
 const nodemailer = require('nodemailer');
 var PORT = process.env.PORT || 3001;
-require('dotenv').config()
+
 
 // for sending email
 // ------------------------
@@ -15,12 +16,16 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
+
 app.post('/email',(req,res) =>{
     // todo
     // send email here
     const {email, personsName, message} = req.body;
 
-    console.log('data:' , req.body);
+    console.log('----------');
+    console.log('data:' , {email, personsName, message});
+    console.log('------------');
+
     sendMail(email, personsName, message, function(err,data){
         if(err){
             res.status(500).json({message: "Internal error"})
