@@ -1,13 +1,3 @@
-var burger = $('.burger');
-var close = $('.close');
-
-let overlayText = $('.overlay-text').text();
-console.log(overlayText)
-console.log(overlayText.toUpperCase())
-var upper = overlayText.toUpperCase()
-
-
-
 function scrollFunction() {
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     $(".navbar").css("background-color", "rgba(100, 100, 100)");
@@ -19,15 +9,22 @@ function scrollFunction() {
 }
 
 $(document).ready(function () {
+  let overlayText = $('.overlay-text').text();
+  console.log(overlayText)
+  console.log(overlayText.toUpperCase())
+  var upper = overlayText.toUpperCase()
+// ------
+ 
+ 
+
   window.onscroll = function () { scrollFunction() };
   //setting burger change when clicked
   burger.on('click', function () {
-    burger.css({ "display": "none" });
-    close.css({ 'display': 'block' });
+    burger.css({ "background-image": "url('../../assets/images/x-w-min.png') !important" });
   })
-  close.on('click', function () {
-    burger.css({ "display": "block" });
-    close.css({ 'display': 'none' });
+  burger.on('click', function () {
+    burger.css({ "background-image": "url('../../assets/images/burger-w-min.png') !important" });
+   
   }) 
   // contact form page------------------------------
   // --------------------------------------

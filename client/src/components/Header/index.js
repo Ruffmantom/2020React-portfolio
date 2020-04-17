@@ -4,24 +4,23 @@ import Burger from "../../assets/images/burger-w-min.png";
 import Close from "../../assets/images/x-w-min.png";
 import logo from "../../assets/images/main-w-logo-min.png";
 import "./style.css";
+import {Navbar, Nav} from "react-bootstrap";
 
 
 function Header() {
     return (
-        <div className="navbar navbar-expand-lg">
-            <button className="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarNavAltMarkup">
-                <img className="burger" src={Burger} alt="Burger icon" />
-                <img className="close" src={Close} alt="Close icon" />
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                    <Link to="/" className="tabs nav-item nav-link" >Home</Link>
-                    <Link to="/Projects" className="tabs nav-item nav-link link-two">Projects</Link>
-                    <Link to="/Contact" className="tabs nav-item nav-link link-two">Contact</Link>
-                </div>
-            </div>
-            <Link className="navbar-brand" to="/"><img className="nav-logo" src={logo} alt="Website Logo"></img></Link>
-        </div>
+        <Navbar bg="light" expand="lg">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/Projects">Projects</Nav.Link>
+                <Nav.Link href="/Contact">Contact</Nav.Link>
+            </Nav>
+            </Navbar.Collapse>
+            <Navbar.Brand href="/"><img className="nav-logo" src={logo} alt="Website Logo"></img></Navbar.Brand>
+        </Navbar>
+        
     );
 }
 

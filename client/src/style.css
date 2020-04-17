@@ -7,7 +7,7 @@ font-family: 'Roboto Mono', monospace;
 
 /* body and html settings */
 html{
-    background-color: rgb(109,103,102);
+    background-color: rgba(100, 100, 100);
 }
 h1, h2, h3, h4{
     font-family: 'Montserrat', sans-serif;
@@ -34,49 +34,15 @@ a{
 a:hover{
     color: whitesmoke;
 }
-.navbar{
-    height: 90px;
-    padding:  0 10%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.24); */
-    z-index: 100;
-    color: white;
-}
 
-.navbar-brand{
-    height: 100%;
-    padding: 20px 0;
-    margin: auto;
-}
-.nav-logo{
-    height: 100%;
-    margin: auto;
-}
-.link-two{
-    margin-left: 20px;
-}
-.burger{
-    height: 100%;
-}
-.btn-icon{
-    height: 70%;
-    /* background-color: rgba(100, 100, 100, 0.795); */
-}
-.navbar-toggler{
-    border: none;
-    padding: 0px;
-}
 
 /* landing */
 
 .landing{
     background-image: url("./assets/images/backdrop.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 700px;
     padding:200px 7rem;
-    scroll-snap-type: x proximity;
 }
 .welcome{
     padding: 20px ;
@@ -131,10 +97,10 @@ p{
     line-height: 30px;  
 }
 .about{
-    height: 100vh;
+    height: 700px;
     display: flex;
     flex-direction: column;
-    scroll-snap-type: x proximity;
+    
 }
 .about-me{
     margin: auto;
@@ -145,8 +111,8 @@ p{
     display: flex;
     flex-direction: column;
     margin-bottom:90px ;
-    height: 100vh;
-    scroll-snap-type: x proximity;
+    height: 100%;
+  
 }
 .card-container{
     display: flex;
@@ -155,7 +121,7 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 800px;
+    height: 700px;
 }
 
 .card{
@@ -209,92 +175,6 @@ p{
 .row{
     margin: 0;
 }
-/* ------------------- PROJECTS PAGE ----------------------------- */
-/* ... */
-.projectLanding{
-    height: 100vh;
-    background-color: rgba(100, 100, 100);
-    overflow: hidden;
-    padding: 0;
-}
-.videoBkg{
-    width: 100vw;
-    
-}
-.overlay{
-    display: none;
-    position: relative;
-    height: 100%;
-    background-color: rgba(0, 128, 128, 0.308);
-}
-.projectLogo{
-    height: 100px;
-}
-@media only screen and (max-width: 1050px){
-    .videoBkg{
-        
-        height: initial;
-
-    }
-    .projectLanding{
-        height: inherit;
-        background-color: rgba(100, 100, 100);
-        overflow: hidden;
-        padding: 0;
-    }
-}
-/* make media for 800 or less */
-/* ________ Main projects div ___________ */
-.mainDiv{
-    position: relative;
-    overflow: visible;
-    display: flex;
-    padding: 100px 50px 0 50px;
-    justify-content: center;
-}
-.right{
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-}
-.rightCard{
-  margin: auto;
-  width: 100%;  
-  background-color: rgba(100, 100, 100);
-  padding: 50px 50px 50px 50px;
-  margin-bottom: 100px;
-  color: white;
-  border-radius: 10px;
-}
-.dep-btn{
-    margin: 20px 0;
-    width: 100%;
-}
-.git-btn{
-    width: 100%;  
-}
-.card-title{
-    font-size: 30px;
-    margin: 20px 0;
-}
-.card-snippet{
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-.leftScroll{
-    margin-right: 200px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 190px;
-    height: 200px;
-    width: 500px;
-}
-
-.leftLogo{
-    width: 200px;
-}
-
 
 
 /* MOBILE SIZES */

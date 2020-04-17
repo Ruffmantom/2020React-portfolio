@@ -10,7 +10,7 @@ function Home() {
             <div className="row landing">
 
                 <div className="col-md-6  welcome">
-                    <h2 className="title">Ruff web Development</h2>
+                    <h1 className="title">Ruff web Development</h1>
                     <p className="snippet">Welcome to Tom Ruff Web Design. Please have a look around and check out my resume
                         below.</p>
                         {/* need to add the link to the resume */}

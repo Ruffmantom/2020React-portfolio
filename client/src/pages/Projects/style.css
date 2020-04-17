@@ -1,0 +1,102 @@
+/* ------------------- PROJECTS PAGE ----------------------------- */
+/* ... */
+.projectLanding{
+    height: 100vh;
+    background-color: rgba(100, 100, 100);
+    overflow: hidden;
+    padding: 0;
+}
+.videoBkg{
+    width: 100vw;
+}
+
+@media only screen and (max-width: 1050px){
+    .videoBkg{
+        height: initial;
+    }
+    .projectLanding{
+        height: inherit;
+        background-color: rgba(100, 100, 100);
+        overflow: hidden;
+        padding: 0;
+    }
+}
+/* make media for 800 or less */
+/* ________ Main projects div ___________ */
+.mainDiv{
+    position: relative;
+    overflow: visible;
+    display: flex;
+    padding: 100px 50px 0 50px;
+    justify-content: center;
+}
+.right{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.rightCard{
+  margin: auto;
+  width: 100%;  
+  background-color: rgba(100, 100, 100);
+  padding: 50px 50px 50px 50px;
+  margin-bottom: 100px;
+  color: white;
+  border-radius: 10px;
+}
+
+.dep-btn{
+    margin: 20px 0;
+    width: 100%;
+}
+.git-btn{
+    width: 100%;  
+}
+.card-title{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.card-snippet{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.leftScroll{
+    margin-right: 200px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 190px;
+    height: 200px;
+    width: 500px;
+}
+.overlay{
+    display:none;
+}
+
+@media only screen and (max-width: 800px){
+    .mainDiv{
+        flex-direction:column;
+
+    }
+    .leftScroll{
+        position:static;
+        margin: 0 auto 50px auto;
+        text-align:center;
+    }
+    .right{
+        margin:0 auto;
+    }
+    .videoBkg{
+        display:none;
+    }
+    .overlay{
+        height:400px;
+        width:auto;
+        display:flex;
+        background-color:rgba(100, 100, 100);
+    }
+    .projectLogo{
+        height:100px;
+        margin:auto;
+    }
+}
