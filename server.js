@@ -2,8 +2,10 @@
 var express = require("express");
 const path = require("path");
 var app = express();
+const sendMail = require("./mail.js");
 const nodemailer = require('nodemailer');
 var PORT = process.env.PORT || 3001;
+require('dotenv').config()
 
 // for sending email
 // ------------------------
@@ -16,8 +18,16 @@ app.use(express.json());
 app.post('/email',(req,res) =>{
     // todo
     // send email here
-    console.log('data:' , req.body)
-    res.json({message: 'message received!!'})
+    const {email, personsName, message} = req.body;
+
+    console.log('data:' , req.body);
+    sendMail(email, personsName, message, function(err,data){
+        if(err){
+            res.status(500).json({message: "Internal error"})
+        } else{
+            res.json({message:"Email Sent!!"});
+        }
+    });
 });
 
 
