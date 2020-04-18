@@ -1,12 +1,12 @@
 const nodemailer = require('nodemailer');
 const mailGun = require('nodemailer-mailgun-transport');
 // getting our Env variables
-const autoKey = process.env.REACT_APP_AUTH_API_KEY;
-const domainUrl = process.env.REACT_APP_AUTH_DOMAIN;
+const autoKey = process.env.MAILGUN_API_KEY;
+const domainUrl = process.env.MAILGUN_DOMAIN;
 const myEmail = process.env.REACT_APP_MY_EMAIL;
 
 const auth = {
-    auth:{
+    auth: {
         api_key: autoKey,
         domain: domainUrl
     }
@@ -25,15 +25,15 @@ const sendMail = (email, personsName, message, cb) => {
     };
 
 
-    transporter.sendMail(mailOptions, function(err, data){
-        if(err){
+    transporter.sendMail(mailOptions, function (err, data) {
+        if (err) {
             throw new Error(err)
             cb(err, null);
-        } else{
-           cb(null, data)
+        } else {
+            cb(null, data)
         }
     });
-    
+
 }
 
 module.exports = sendMail;

@@ -20,31 +20,30 @@ function Projects() {
                 </div>
             </div>
 
-                {/* projects slide effect */}
-                <div className="mainDiv">
+            {/* projects slide effect */}
+            <div className="mainDiv">
 
-                    {/* this will be for the left side */}
-                    <div className="leftScroll">
-                        <h1>Projects</h1>
-                        <p>Here you will see my personal projects and projects I have collaborated on. The layout and design for this page will continue to evolve with the continuation of projects.</p>
-                    </div>
-                    {/* this div will be for the right side */}
-                    <div className="right">
-                        {/* in here will be all the projects mapped */}
-                        {ProList.map(res => (
-                            <Card
-                                image={res.image}
-                                name={res.name}
-                                info={res.info}
-                                link={res.link}
-                                gitLink={res.gitLink}
-                            />
-                        ))}
+                {/* this will be for the left side */}
+                <div className="leftScroll">
+                    <h1>Projects</h1>
+                    <p>Here you will see my personal projects and projects I have collaborated on. The layout and design for this page will continue to evolve with the continuation of projects.</p>
+                </div>
+                {/* this div will be for the right side */}
+                <div className="right">
+                    {/* in here will be all the projects mapped */}
+                    {ProList.map(res => (
+                        <Card
+                            image={res.image}
+                            name={res.name}
+                            info={res.info}
+                            link={res.link}
+                            gitLink={res.gitLink}
+                        />
+                    ))}
 
-                    </div>
                 </div>
             </div>
-
+        </div>
     )
 }
 
