@@ -22,25 +22,25 @@ $(document).ready(function () {
   // --------------------------------------
   // -------------------------------
 
-  $('#form').on('submit', (e) => {
-    e.preventDefault();
+  // $('#form').on('submit', (e) => {
+  //   e.preventDefault();
 
-    const email = $('#email').val().trim();
-    const personsName = $('#name').val().trim();
-    const message = $('#text').val().trim();
+  //   const email = $('#email').val().trim();
+  //   const personsName = $('#name').val().trim();
+  //   const message = $('#text').val().trim();
 
-    const data = {
-      email,
-      personsName,
-      message
-    };
+  //   const data = {
+  //     email,
+  //     personsName,
+  //     message
+  //   };
 
-    $.post('/email', data, function () {
-      console.log("Server recieved our data!")
-    }
-    );
+  //   $.post('/email', data, function () {
+  //     console.log("Server recieved our data!")
+  //   }
+  //   );
 
-  });
+  // });
 
   // the end of document.ready
 });

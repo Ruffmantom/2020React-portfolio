@@ -1,14 +1,12 @@
 const nodemailer = require('nodemailer');
 const mailGun = require('nodemailer-mailgun-transport');
 // getting our Env variables
-const autoKey = process.env.MAILGUN_API_KEY;
-const domainUrl = process.env.MAILGUN_DOMAIN;
 const myEmail = process.env.REACT_APP_MY_EMAIL;
 
 const auth = {
     auth: {
-        api_key: autoKey,
-        domain: domainUrl
+        api_key: process.env.MAILGUN_API_KEY || "59b3f4efda0902b404f96932c2d72976-915161b7-c9779ef0",
+        domain: process.env.MAILGUN_DOMAIN || "sandbox8509d310417b453886ec659721d817ff.mailgun.org"
     }
 };
 
@@ -16,11 +14,11 @@ const auth = {
 const transporter = nodemailer.createTransport(mailGun(auth));
 
 
-const sendMail = (email, personsName, message, cb) => {
+const sendMail = ( fullName,email, message, cb) => {
     const mailOptions = {
         from: email,
         to: myEmail,
-        subject: personsName,
+        subject: fullName,
         text: message
     };
 
@@ -28,7 +26,6 @@ const sendMail = (email, personsName, message, cb) => {
     transporter.sendMail(mailOptions, function (err, data) {
         if (err) {
             throw new Error(err)
-            cb(err, null);
         } else {
             cb(null, data)
         }

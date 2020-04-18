@@ -20,17 +20,17 @@ app.use(express.json());
 app.post('/email',(req,res) =>{
     // todo
     // send email here
-    const {email, personsName, message} = req.body;
+    const {fullName, email, message} = req.body;
 
     console.log('----------');
-    console.log('data:' , {email, personsName, message});
+    console.log('data:' , {fullName, email, message});
     console.log('------------');
 
-    sendMail(email, personsName, message, function(err,data){
+    sendMail(fullName, email, message, function(err,data){
         if(err){
             res.status(500).json({message: "Internal error"})
         } else{
-            res.json({message:"Email Sent!!"});
+            res.status(200).json({message:"Email Sent!!"});
         }
     });
 });
