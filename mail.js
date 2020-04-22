@@ -2,11 +2,13 @@ const nodemailer = require('nodemailer');
 const mailGun = require('nodemailer-mailgun-transport');
 // getting our Env variables
 const myEmail = process.env.REACT_APP_MY_EMAIL;
+const myDomain = process.env.REACT_APP_MY_DOMAIN;
+const myKey = process.env.REACT_APP_MY_KEY;
 
 const auth = {
     auth: {
-        api_key: process.env.MAILGUN_API_KEY || "59b3f4efda0902b404f96932c2d72976-915161b7-c9779ef0",
-        domain: process.env.MAILGUN_DOMAIN || "sandbox8509d310417b453886ec659721d817ff.mailgun.org"
+        api_key: process.env.MAILGUN_API_KEY || myKey,
+        domain: process.env.MAILGUN_DOMAIN || myDomain
     }
 };
 

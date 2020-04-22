@@ -195,10 +195,20 @@ p{
     }
     .about-me{
         padding:25px;
+        width: 100%;
+    }
+    .about{
+        height: 100%;
     }
     .landing{
         padding:100px 0;
-        height: 400px;
+        height: 450px;
+    }
+    .icons{
+        height: 45px;
+    }
+    .foot-icons{
+        display: flex;
     }
     /* project page */
    /* ... */
