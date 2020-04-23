@@ -40,7 +40,7 @@ class Contact extends Component {
         return (
             <div>
                 <div className="form-container">
-                    <h1 className="heading">Contact Me</h1>
+                    <h1 className="heading">Connect with Me</h1>
                     <form id="form">
                         <p>Please Enter Full Name</p>
                         <input className="form-items" type="text" id="name" name="fullName" placeholder="John Doe" value={this.state.fullName} onChange={this.handleInputChange} />
