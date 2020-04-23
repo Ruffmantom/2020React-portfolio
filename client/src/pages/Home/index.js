@@ -10,8 +10,8 @@ function Home() {
             <div className="row landing">
 
                 <div className="col-md-6  welcome">
-                    <h1 className="title">Ruff web Development</h1>
-                    <p className="snippet">Welcome to Tom Ruff Web Design. Please have a look around and check out my resume
+                    <h1 className="title">Ruff Web Development</h1>
+                    <p className="snippet">Welcome to Tom Ruff Web Development. Please have a look around and check out my resume
                         below.</p>
                         {/* need to add the link to the resume */}
                     <a href="https://drive.google.com/open?id=1g7ASZuXEZxR_tAc9M8VBwKpqprSdSP7T" target="_blank" className="btn btn-primary resume">Resume</a>
@@ -33,7 +33,7 @@ function Home() {
                         have a passion for building things; from working with wood or metal to designing software and
                         content on a computer. I love that I can use my creativity to design what I or another would
                         like to see come to life.
-                        Full-Stack web development is where I want to be; I am constantly learning new material and
+                        Full-Stack web development is where I want to be. I am constantly learning new material and
                         love challenging myself in new ways of building with code. Please have a look around and
                         connect with me if you are interested in my work! </p>
                 </div>
@@ -58,7 +58,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <img className="card-img" src={iconComputer} alt="Computer Icon"></img>
-                        <h3 className="card-title">Product</h3>
+                        <h3 className="card-title">Develop</h3>
                         <p className="card-snippet">Once we have a proof of concept, I will begin bringing your vision to
                             life</p>
 
