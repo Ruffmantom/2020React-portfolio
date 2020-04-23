@@ -3,35 +3,35 @@
         
         "image": "1gSh4cvtf8Z8ABZoBqYcIbYcftInVSE_e",
         "name": "Code Quiz",
-        "info": "This Project gave me my first real experience with using javascript. Creating a Quiz functionality and messing with the DOM to render different questions. Also using local storage for getting the users name and displaying it at the end of the quiz.",
+        "info": "In this project Javascript was used to manipulate the DOM and create the quiz logic.  Local Storage was used to save the user’s name and display it at the end of the quiz.",
         "link": "https://ruffmantom.github.io/CodeQuiz/index.html",
         "gitLink":"https://github.com/Ruffmantom/CodeQuiz"
     },
     {
         "image": "1azbir2wEMIMcOJH3IjDQkoTqlwC1E6zy",
         "name": "Weather App",
-        "info": "This was the first project using api calls and rendering it to the DOM. Created using Javascript, Jquery and Ajax calls.",
+        "info": "Created using Javascript, Jquery and Ajax.  API calls were used and rendered to the DOM.",
         "link": "https://ruffmantom.github.io/weather-app/",
         "gitLink":"https://github.com/Ruffmantom/weather-app"
     },
     {
         "image": "15lps_5eN7pNbimKJ1tn2tRSyGvU1hmfP",
         "name": "Dream Destination",
-        "info": "This was a group project that used API calls and a search form to get the information of a certain area that you would want to visit, also will display the current weather there also.",
+        "info": "This group project used API calls to obtain information and weather about the user’s travel destination.",
         "link": "https://ruffmantom.github.io/Group-project/",
         "gitLink":"https://github.com/Ruffmantom/Group-project"
     },
     {
         "image": "1034cgy-ptNK504UcjRR-SOd7XzmMvKnX",
         "name": "Eat-The-Burger",
-        "info": "This app was created using express server and MySql. The point of the project was to show that you can change the status of data and resend it to the DB with routes for it to re render on the HTML",
+        "info": "This app uses Node Express server and Handle Bars to display information from a MySQL database. It is also able to manipulate the database with an input and click event. ",
         "link": "https://pure-plateau-36747.herokuapp.com/",
         "gitLink":"https://github.com/Ruffmantom/13-homework"
     },
     {
         "image": "1OhRLwPBtbZYuYPbpKh6kdXDo_MuNt5fy",
-        "name": "DadLife App",
-        "info": "This was a group project that used MySql as well as express Server. The point of the App was to create a community for Dad Jokes and Dad profiles. We had used passport fo the authentication. I created the design and layout as well as the logos and icons.",
+        "name": "Dad-Life",
+        "info": "This group project used  MySQL, Node Express server and Passport for log-in authentication to create an online community for sharing dad jokes.  API calls were also used to gather joke content. ",
         "link": "https://limitless-retreat-33624.herokuapp.com/",
         "gitLink":"https://github.com/Ruffmantom/Dad-app"
     }
