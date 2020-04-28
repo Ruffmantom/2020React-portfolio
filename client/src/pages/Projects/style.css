@@ -73,6 +73,7 @@
 .proCard-img{
     width: 100%;
     height: auto;
+    
 }
 
 .dep-btn{
@@ -150,12 +151,14 @@
         text-align: center;
     }
     .card-snippet{
-        font-size: 12px;
+        font-size: 18px;
         line-height: 1.5;
         text-align: center;
+        padding: 0 20px;
     }
-    .card-image{
+    .proCard-img{
         margin: 0 auto;
+        padding: 25px;
     }
     .dep-btn{
         width: 75%;
