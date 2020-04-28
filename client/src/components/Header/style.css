@@ -16,10 +16,11 @@
     position: fixed;
     top: 0;
     width: 100%;
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.24); */
     z-index: 100;
-    background-color:rgba(100, 100, 100) !important;
+    background-color: none;
 }
+
+
 .nav-link{
     color:white !important;
 }
@@ -34,3 +35,5 @@
     height: 100%;
     margin: auto;
 }
+
+
