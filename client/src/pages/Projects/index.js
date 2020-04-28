@@ -3,7 +3,7 @@ import Card from "../../components/Card";
 import ProList from "../../assets/ProList.json";
 import logo from "../../assets/images/main-w-logo-min.png";
 import "./style.css";
-const youVid = "https://drive.google.com/uc?id=11aguMjjhsXxX3ojpr67z6nyi0e1InQ9Y";
+import youVid from "../../assets/images/codingBkg.mp4";
 
 
 console.log(ProList);
@@ -12,11 +12,20 @@ function Projects() {
     return (
         <div>
             <div className="projectLanding">
+
+                <div className="videoOverlay">
+                    <div className="overlayDiv">
+                        <img className="videoLogo" src={logo} alt="logo"/>
+                        <p className="videoText">Connect, Design, Develop</p>
+                    </div> 
+                </div>
+                
                 <video autoPlay muted loop className="videoBkg">
                     <source src={youVid} type="video/mp4"></source>
                 </video>
+                
                 <div className="overlay">
-                    <img className="projectLogo" src={logo}></img>
+                    <img className="projectLogo" src={logo} alt="logo"/>
                 </div>
             </div>
 

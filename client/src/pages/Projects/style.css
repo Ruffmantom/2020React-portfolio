@@ -8,7 +8,33 @@
 }
 .videoBkg{
     width: 100vw;
+  
 }
+.videoOverlay{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.267);
+  
+}
+.overlayDiv{
+    margin: auto;
+    text-align: center;
+}
+.videoLogo{
+    height: 150px;
+    margin-bottom: 30px;
+}
+.videoText{
+    color:white;    
+    font-size: 20px;
+}
+
 
 @media only screen and (max-width: 1050px){
     .videoBkg{
@@ -43,6 +69,10 @@
   margin-bottom: 100px;
   color: white;
   border-radius: 10px;
+}
+.card-img{
+    width: 100%;
+    height: auto;
 }
 
 .dep-btn{
@@ -92,6 +122,9 @@
         padding: 20px 5px;
         display: flex;
         flex-direction: column;
+    }
+    .videoOverlay{
+        display: none;
     }
     .videoBkg{
         display:none;

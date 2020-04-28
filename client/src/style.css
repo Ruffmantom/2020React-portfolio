@@ -133,11 +133,7 @@ p{
     border: none;
     height: 70%;
 }
-.card-img{
-    height: 220px;
-    width: 220px;
-    margin: 0 auto;
-}
+
 @media only screen and (max-width: 1291px){
     .card{
         padding: 15px 19px !important;
