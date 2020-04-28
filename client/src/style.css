@@ -127,11 +127,17 @@ p{
 .card{
     display: flex;
     flex-direction: column;
-    padding: 20px 25px !important;
+    padding: 20px 25px;
     width: 22%;
     margin: auto 25px;
     border: none;
-    height: 70%;
+    height: 65%;
+}
+
+.card-img{
+    height: 200px;
+    width: 200px;
+    margin:0 auto;
 }
 
 @media only screen and (max-width: 1291px){
