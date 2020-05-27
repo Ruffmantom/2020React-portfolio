@@ -1,0 +1,58 @@
+
+.iconSECTION{
+    margin-top: 200px;
+}
+/* .overlay{
+    position: absolute;
+    top: 200;
+    left: 0;
+    z-index: 2;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.568);
+} */
+
+.iconSecBKG{
+    height: 400px;
+    width: 100%;
+    background: url("https://images.pexels.com/photos/880675/pexels-photo-880675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.secTitle{
+    color: white;
+   
+}
+.iconCont{
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.iconDiv{
+    height: fit-content;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iconDiv > i {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.iconDesc{
+    padding: 0;
+    line-height: normal;
+    margin: 0;
+}

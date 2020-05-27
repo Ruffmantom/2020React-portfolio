@@ -22,15 +22,23 @@
     color:white !important;
 }
 
- .navbar-brand{
+.navbar-brand{
     height: 100%;
     padding: 20px 0;
-    
+
 }
 
 .nav-logo{
     height: 100%;
     margin: auto;
 }
-
+@media only screen and (max-width: 900px){
+    .navbar-brand{
+        display: none;
+        
+    }
+    #basic-navbar-nav{
+        margin-top: 10px;
+    }
+}
 

@@ -1,11 +1,11 @@
 .form-container{
-    margin-top: 90px;
-    padding: 100px;
+    padding: 100px 100px 20px 100px;
     height: 100%;
     text-align: center;
-    margin-bottom:50px
+    
 }
 .heading{
+    margin-top: 90px;
     margin-bottom: 30px;
 }
 
@@ -16,14 +16,33 @@
     width: 60%;
     margin: auto;
 }
+.myEmail{
+    color: black;
+    text-decoration: none;
+}
+.myEmail:hover{
+    color: #0c7bff;
+}
+.orCont{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.orThis{
+    margin: 0 auto 30px auto;
+}
 .form-items{
     padding: 10px 0 10px 10px;
     margin: 10px 0;
 }
-
+input, textarea{
+    border-radius: 5px;
+}
 @media only screen and (max-width: 700px){
     .form-container{
-        padding:40px;
+        padding:40px 40px 10px 40px;
     }
     #form{
         width:100%;
