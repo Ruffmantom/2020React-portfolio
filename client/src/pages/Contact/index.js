@@ -51,6 +51,10 @@ class Contact extends Component {
                         <button className="form-items btn btn-primary" id="submit-btn" onClick={this.handleFormSubmit}>Submit</button>
                     </form>
                 </div>
+                <div className="orCont">
+                    <p className="orThis">Or Email me directly at <span><a className="myEmail" href="mailto:tomruffcodes@gmail.com">tomruffcodes@gmail.com</a></span></p>
+                    
+                </div>
             </div >
         )
     }

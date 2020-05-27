@@ -2,7 +2,7 @@
 .iconSECTION{
     margin-top: 200px;
 }
-.overlay{
+/* .overlay{
     position: absolute;
     top: 200;
     left: 0;
@@ -17,7 +17,7 @@
     align-content: center;
     padding: 40px 0;
     background-color: rgba(0, 0, 0, 0.568);
-}
+} */
 
 .iconSecBKG{
     height: 400px;
@@ -31,7 +31,7 @@
 .iconCont{
     margin: 0 auto;
     height: auto;
-    width: 40%;
+    width: 70%;
     color: white;
     display: flex;
     flex-wrap: wrap;

@@ -15,17 +15,17 @@ function Projects() {
 
                 <div className="videoOverlay">
                     <div className="overlayDiv">
-                        <img className="videoLogo" src={logo} alt="logo"/>
+                        <img className="videoLogo" src={logo} alt="logo" />
                         <p className="videoText">Connect, Design, Develop</p>
-                    </div> 
+                    </div>
                 </div>
-                
+
                 <video autoPlay muted loop className="videoBkg">
                     <source src={youVid} type="video/mp4"></source>
                 </video>
-                
+
                 <div className="overlay">
-                    <img className="projectLogo" src={logo} alt="logo"/>
+                    <img className="projectLogo" src={logo} alt="logo" />
                 </div>
             </div>
 
@@ -49,6 +49,47 @@ function Projects() {
                             gitLink={res.gitLink}
                         />
                     ))}
+
+                </div>
+            </div>
+            <h1 className="currentStack">My Current Stack</h1>
+            <div className="myStack">
+                <div className="listSide">
+
+                    <ul className="list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>jQuery</li>
+                        <li>Javascript</li>
+                        <li>Handlebars</li>
+                        <li>React</li>
+
+                    </ul>
+
+                    <ul className="list">
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>MongoDB</li>
+                        <li>MySql</li>
+                        <li>Heroku</li>
+                        <li>MVC Model</li>
+                    </ul>
+
+
+                </div>
+                <div className="iconSide">
+
+                    <i className="fab fa-html5"></i>
+
+                    <i className="fab fa-css3-alt"></i>
+
+                    <i className="fab fa-js"></i>
+
+                    <i className="fab fa-node-js"></i>
+
+                    <i className="fab fa-react"></i>
+
+                    <i className="fas fa-database"></i>
 
                 </div>
             </div>

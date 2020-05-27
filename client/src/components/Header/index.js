@@ -14,6 +14,7 @@ function Header() {
 
     useEffect(() => {
         let navEl = document.getElementById('scrollNav');
+        navEl.style.backgroundColor = "rgba(100, 100, 100, 0.548)"
 
     function scrollFunction() {
         if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
@@ -23,7 +24,7 @@ function Header() {
             navEl.style.transitionTimingFunction = "ease";
     
         } else {
-            navEl.style.backgroundColor = "rgba(100, 100, 100, 0)";
+            navEl.style.backgroundColor = "rgba(100, 100, 100, 0.548)";
             
     
         }
@@ -39,7 +40,7 @@ function Header() {
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/Projects">Projects</Nav.Link>
-                    <Nav.Link href="/Design">Design</Nav.Link>
+                    {/* <Nav.Link href="/Design">Design</Nav.Link> */}
                     <Nav.Link href="/Contact">Connect</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

@@ -64,10 +64,11 @@
 .rightCard{
   margin: auto;
   width: 100%;  
-  background-color: rgba(100, 100, 100);
-  padding: 50px 50px 50px 50px;
+  background-color: rgba(100, 100, 100, 0.212);
+  /* border: 1px solid rgba(100, 100, 100); */
+  padding: 20px;
   margin-bottom: 100px;
-  color: white;
+  color: black;
   border-radius: 10px;
 }
 .proCard-img{
@@ -102,6 +103,11 @@
 }
 .overlay{
     display:none;
+}
+@media only screen and (min-width:1000px){
+    .leftScroll{
+        margin-bottom: 80px;
+    }
 }
 
 @media only screen and (max-width: 800px){
@@ -170,4 +176,72 @@
     }
    
 
+}
+.currentStack{
+    margin: 50px 0;
+    text-align: center;
+}
+.myStack{
+    display: flex;
+    margin: 50px auto 150px auto;
+    height: 320px;
+}
+.listSide{
+    display: flex;
+    background: rgba(100, 100, 100, 0.212);
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+.list{
+    color: black;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.list li{
+    padding: 5px 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.iconSide{
+    height: 100%;
+    font-size: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iconSide > i{
+    padding: 40px;
+}
+/* mobile view for technologies */
+@media only screen and (max-width:940px){
+    .myStack{
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+    .list{  
+        font-size: 17px;
+    }
+    .listSide{
+       padding: 20px 10px; 
+    }
+    .iconSide{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .iconSide > i{
+        padding: 20px;
+    }
+    .currentStack{
+        margin-top: 0;
+    }
 }
