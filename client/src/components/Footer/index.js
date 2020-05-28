@@ -9,17 +9,17 @@ function Footer() {
     return (
     <div className="footer row">
         <div className="foot-icons">
-            <Link className="iconsLink" to="/">
+            <a className="iconsLink" href="/">
                 <img className="icons" src={logo} alt="Ruff web development logo"></img>
-            </Link>
+            </a>
         
-            <Link className="iconsLink"  to="https://github.com/Ruffmantom" >
+            <a className="iconsLink"  href="https://github.com/Ruffmantom" target="_blank" >
                 <img className="icons" src={github} alt="github icon"></img>
-            </Link>
+            </a>
             
-            <Link className="iconsLink"  to="https://linkedin.com/in/tom-ruff-098330a3">
+            <a className="iconsLink"  href="https://linkedin.com/in/tom-ruff-098330a3" target="_blank">
                 <img className="icons" src={linkedIn} alt="linked in icon"></img>
-            </Link> 
+            </a> 
             
         </div> 
 
