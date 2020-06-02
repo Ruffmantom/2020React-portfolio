@@ -14,7 +14,7 @@ function Home() {
                     <p className="snippet">Welcome to Tom Ruff Web Development. Please have a look around and check out my resume
                         below.</p>
                         {/* need to add the link to the resume */}
-                    <a href="https://drive.google.com/open?id=1KKR1jkGy2iuHzmEPnMBL1dU3EPp1M4V7" target="_blank" className="btn btn-primary resume">Resume</a>
+                    <a href="https://drive.google.com/file/d/1jV5nBdN8aaLC_Xm0WZ0OrS9E8CS3auAV/view?usp=sharing" target="_blank" className="btn btn-primary resume">Resume</a>
                 </div>
 
                 <dvi className="col-md-6 hide-small">
