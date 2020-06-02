@@ -1,6 +1,21 @@
 [
     {
         
+        "image": "1E7wJrHF_2RivUHiOq3ldFCx-x_Op1Lds",
+        "name": "GigIt",
+        "info": "This is the latest project that my team and I have created. Built with React.js, custom CSS3, Auth0, Google Authentication, Mongo DB, react-bootstrap, Node.js, and Express for local development",
+        "link": "https://www.letsgigit.events/",
+        "gitLink":"https://github.com/dawson-hamilton/devDivas"
+    },
+    {
+        "image": "1Bud3b8nE3sMA2k2b9vnPpjY7FWogY-N-",
+        "name": "Dad-Life",
+        "info": "This group project used  MySQL, Node Express server and Passport for log-in authentication to create an online community for sharing dad jokes.  API calls were also used to gather joke content. ",
+        "link": "https://limitless-retreat-33624.herokuapp.com/",
+        "gitLink":"https://github.com/Ruffmantom/Dad-app"
+    },
+    {
+        
         "image": "1L8MVkvtZwqtAGTxbo3hWnqiNshhOfSyD",
         "name": "Code Quiz",
         "info": "In this project Javascript was used to manipulate the DOM and create the quiz logic.  Local Storage was used to save the user’s name and display it at the end of the quiz.",
@@ -27,12 +42,5 @@
         "info": "This app uses Node Express server and Handle Bars to display information from a MySQL database. It is also able to manipulate the database with an input and click event. ",
         "link": "https://pure-plateau-36747.herokuapp.com/",
         "gitLink":"https://github.com/Ruffmantom/13-homework"
-    },
-    {
-        "image": "1Bud3b8nE3sMA2k2b9vnPpjY7FWogY-N-",
-        "name": "Dad-Life",
-        "info": "This group project used  MySQL, Node Express server and Passport for log-in authentication to create an online community for sharing dad jokes.  API calls were also used to gather joke content. ",
-        "link": "https://limitless-retreat-33624.herokuapp.com/",
-        "gitLink":"https://github.com/Ruffmantom/Dad-app"
     }
 ]
