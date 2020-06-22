@@ -2,6 +2,7 @@ import React from "react";
 import iconConnect from "../../assets/images/connecting-icon-min.png";
 import iconPencil from "../../assets/images/pencil-icon-min.png";
 import iconComputer from "../../assets/images/computer-icon-min.png";
+import resume from "../../assets/TomRuff-2020Resume.pdf";
 import "./style.css";
 function Home() {
     return (
@@ -14,7 +15,7 @@ function Home() {
                     <p className="snippet">Welcome to Tom Ruff Web Development. Please have a look around and check out my resume
                         below.</p>
                         {/* need to add the link to the resume */}
-                    <a href="https://drive.google.com/file/d/1DBRGqnCs96txKZwfdMEUk0Ekamh_V6v3/view?usp=sharing" target="_blank" className="btn btn-primary resume">Resume</a>
+                    <a href={resume} target="_blank" className="btn btn-primary resume">Resume</a>
                 </div>
 
                 <dvi className="col-md-6 hide-small">
