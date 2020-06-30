@@ -1,9 +1,17 @@
 [
     {
         
+        "image": "1mYLVF1tWrHVSMHyd8yqX5LDUGJpMUb6p",
+        "name": "Rock Paper Scissors",
+        "info": "Most Recent project that I worked on. This mobile based app lets the user interact with a javascript AI choice randomizer, and plays a round of rock paper scissors. Created the UI/UX styles and app functionality.",
+        "link": "https://ruffmantom.github.io/RPS-new/",
+        "gitLink":"https://github.com/Ruffmantom/RPS-new"
+    },
+    {
+        
         "image": "1E7wJrHF_2RivUHiOq3ldFCx-x_Op1Lds",
         "name": "GigIt",
-        "info": "Latest project I had the pleasure of working on with my team from my cohort. I worked primarily on UX/UI design of the app, as well as custom styling with CSS. I also helped with backend database logic and bringing the data back to the user. This project used React.js, custom CSS3, Auth0, Google Authentication, Mongo DB, react-bootstrap, Node.js, and Express for local development",
+        "info": "Project I had the pleasure of working on with my team from my cohort. I worked primarily on UX/UI design of the app, as well as custom styling with CSS. I also helped with backend database logic and bringing the data back to the user. This project used React.js, custom CSS3, Auth0, Google Authentication, Mongo DB, react-bootstrap, Node.js, and Express for local development",
         "link": "https://www.letsgigit.events/",
         "gitLink":"https://github.com/dawson-hamilton/devDivas"
     },
