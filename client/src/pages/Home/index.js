@@ -28,15 +28,7 @@ function Home() {
             <section className="about row">
                 <div className="about-me">
                     <h2 className="title">About Me</h2>
-                    <p className="snippet">My name is Tom Ruff. I am a Front-End Web Developer and am currently in school
-                        for Full-Stack web development at the University of Utah in Salt lake City. I am from Chicago
-                        and moved to SLC in 2018 when I started working as a graphic designer for Hightech Signs. I
-                        have a passion for building things; from working with wood or metal to designing software and
-                        content on a computer. I love that I can use my creativity to design what I or another would
-                        like to see come to life.
-                        Full-Stack web development is where I want to be. I am constantly learning new material and
-                        love challenging myself in new ways of building with code. Please have a look around and
-                        connect with me if you are interested in my work! </p>
+                    <p className="snippet">My name is Tom Ruff, I am a Full Stack Web Developer. Originally from the Chicago land area and moved to SLC in 2018, where I started working as a graphic designer for Hightech Signs. In the Fall of 2019, I committed my time to a Full Stack Development Bootcamp with the University of Utah. After 6 months of intense learning and switching to remotely attending, I graduated in May of 2020. I have a passion for building things; from working with wood or metal to designing software and content on a computer. I love that I can use my creativity to design and build what I or another would like to see come to life. Full-Stack web development is where I want to be. I am constantly learning new material and love challenging myself in new ways of building with code. Please have a look around and connect with me if you are interested in my work! </p>
                 </div>
             </section>
 
