@@ -4,10 +4,11 @@
     padding:0;
 }
 .navbar-toggler-icon{
-   background-image:url("../../assets/images/burger-w-min.png") !important;
+   /* background-image:url("../../assets/images/burger-w-min.png") !important; */
+   display: none;
 }
-.close{
-   background-image:url("../../assets/images/x-w-min.png") !important;
+.custom-nav-icon{
+ height: 30px;
 }
 
 .navbar{
