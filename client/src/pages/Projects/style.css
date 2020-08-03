@@ -152,13 +152,29 @@ html{
         height:450px;
         width:auto;
         display:flex;
+        flex-direction: column;
+        justify-content: center;
         background-image: url("../../assets/images/backdrop.jpg");
         background-position: center;
         background-repeat: no-repeat;
     }
+    .overlay-text{
+        margin: 0 auto;
+        color: white;
+    }
+    .mobile-callToAction{
+        margin: 0 auto;
+        font-size: 32px;
+        color: white;
+        border-radius: 7px;
+    }
     .projectLogo{
-        height: 75px;
-        margin:auto;
+        padding: 20px;
+        height: 100px;
+        margin:0 auto;
+    }
+    .MuiSvgIcon-root{
+        height: 2em;
     }
     .git-btn{
         width: 100%;  

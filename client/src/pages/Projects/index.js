@@ -18,7 +18,7 @@ function Projects() {
                     <div className="overlayDiv">
                         <img className="videoLogo" src={logo} alt="logo" />
                         <p className="videoText">Most Recent Projects</p>
-                        <a className="callToAction" href="#projects" ><ExpandMoreIcon  fontSize="large"/></a>
+                        <a className="callToAction" href="#projects" ><ExpandMoreIcon fontSize="large" /></a>
                     </div>
                 </div>
 
@@ -28,7 +28,8 @@ function Projects() {
 
                 <div className="overlay">
                     <img className="projectLogo" src={logo} alt="logo" />
-                    
+                    <p className="overlay-text">Most Recent Projects</p>
+                    <a className="mobile-callToAction" href="#projects" ><ExpandMoreIcon fontSize="large" /></a>
                 </div>
             </div>
 
