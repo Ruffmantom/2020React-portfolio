@@ -4,6 +4,7 @@ import ProList from "../../assets/ProList.json";
 import logo from "../../assets/images/main-w-logo-min.png";
 import "./style.css";
 import youVid from "../../assets/images/codingBkg.mp4";
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 console.log(ProList);
@@ -16,7 +17,8 @@ function Projects() {
                 <div className="videoOverlay">
                     <div className="overlayDiv">
                         <img className="videoLogo" src={logo} alt="logo" />
-                        <p className="videoText">Connect, Design, Develop</p>
+                        <p className="videoText">Most Recent Projects</p>
+                        <a className="callToAction" href="#projects" ><ExpandMoreIcon  fontSize="large"/></a>
                     </div>
                 </div>
 
@@ -26,11 +28,12 @@ function Projects() {
 
                 <div className="overlay">
                     <img className="projectLogo" src={logo} alt="logo" />
+                    
                 </div>
             </div>
 
             {/* projects slide effect */}
-            <div className="mainDiv">
+            <div className="mainDiv" id="projects">
 
                 {/* this will be for the left side */}
                 <div className="leftScroll">
