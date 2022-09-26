@@ -32,6 +32,6 @@
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "nodemailer": "^6.4.6",
-    "nodemailer-mailgun-transport": "^2.0.0"
+    "nodemailer-mailgun-transport": "^2.1.5"
   }
 }
