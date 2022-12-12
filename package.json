@@ -29,7 +29,7 @@
   "homepage": "https://github.com/Ruffmantom/2020React-portfolio#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "if-env": "^1.0.4",
     "nodemailer": "^6.4.6",
     "nodemailer-mailgun-transport": "^2.0.0"
